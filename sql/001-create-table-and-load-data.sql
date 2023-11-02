@@ -1,0 +1,12 @@
+DROP TABLE IF EXISTS names;
+CREATE TABLE names (
+ id int unsigned AUTO_INCREMENT,
+ name VARCHAR(20) NOT NULL,
+ PRIMARY KEY(id)
+);
+INSERT INTO names (name) VALUES ('name1');
+INSERT INTO names (name) VALUES ('name2');
+INSERT INTO names (name) VALUES ('name3');
+INSERT INTO names (name) VALUES ('Name4');
+INSERT INTO names (name) VALUES ('TAKA');
+INSERT INTO names (name) VALUES ('MIDORI');
